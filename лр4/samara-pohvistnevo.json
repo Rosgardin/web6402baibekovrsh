@@ -1,0 +1,50 @@
+{
+    "/data_table": {
+        "get": {
+            "data": [
+                {
+                    "departureTime": "05:30",
+                    "arrivalTime": "07:15",
+                    "trainNumber": "6001",
+                    "route": "Самара — Похвистнево"
+                },
+                {
+                    "departureTime": "07:00",
+                    "arrivalTime": "08:45",
+                    "trainNumber": "6003",
+                    "route": "Самара — Похвистнево"
+                },
+                {
+                    "departureTime": "09:30",
+                    "arrivalTime": "11:15",
+                    "trainNumber": "6005",
+                    "route": "Самара — Похвистнево"
+                },
+                {
+                    "departureTime": "12:00",
+                    "arrivalTime": "13:45",
+                    "trainNumber": "6007",
+                    "route": "Самара — Похвистнево"
+                },
+                {
+                    "departureTime": "15:00",
+                    "arrivalTime": "16:45",
+                    "trainNumber": "6009",
+                    "route": "Самара — Похвистнево"
+                },
+                {
+                    "departureTime": "18:00",
+                    "arrivalTime": "19:45",
+                    "trainNumber": "6011",
+                    "route": "Самара — Похвистнево"
+                },
+                {
+                    "departureTime": "20:30",
+                    "arrivalTime": "22:15",
+                    "trainNumber": "6013",
+                    "route": "Самара — Похвистнево"
+                }
+            ]
+        }
+    }
+}

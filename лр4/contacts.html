@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="css/grid.css">
+  <script src="js/formv.js" defer></script> <!-- Подключаем внешний JavaScript файл -->
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Расписание поездок</h1>
+      <nav>
+        <a href="samara-pohvistnevo.html">Самара — Похвистнево</a>
+        <a href="samara-tolyatti.html">Самара — Тольятти</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="news.html">Новости</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>Контакты</h2>
+    <p>Свяжитесь с нами:</p>
+    <ul>
+      <li>Телефон: +7 (XXX) XXX-XX-XX</li>
+      <li>Email: info@samara-railway.ru</li>
+      <li>Адрес: г. Самара, ул. Железнодорожная, д. 1</li>
+    </ul>
+    <a href="index.html">Вернуться на главную</a>
+  
+  <section class="contact-form"> 
+    <h2>Форма обратной связи</h2>
+    <form id="contactForm" action="#" method="POST"> 
+        <div>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" >    <!-- required -->
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >   <!-- required -->
+        </div>
+        <div>
+            <label for="message">Сообщение:</label>
+            <input type="text" id="message" name="message">Сообщение</input>
+        </div>
+        <button type="submit">Отправить</button>
+    </form>
+</section>
+</div>
+
+</body>
+</html>
